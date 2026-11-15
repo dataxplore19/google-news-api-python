@@ -2,7 +2,7 @@
 
 Search Google News in Python and save the results to CSV: articles for any keyword, country and language, or a custom date range, with the real article URL, source, publication date, image, description and the full article text. You can also run it on a schedule and get a Telegram alert for each new article.
 
-Google has no official Google News API, and the Google News RSS feed stops at about 100 items and only gives `news.google.com` redirect links. This script gets the data through the [Google News Scraper](https://apify.com/data_xplorer/google-news-scraper-fast) Actor on Apify, which decodes the links to the original article, splits the search by date to go past 100 results, and can extract the article text.
+Google has no official Google News API, and the Google News RSS feed stops at about 100 items and only gives `news.google.com` redirect links. This script gets the data through the [Google News Scraper](https://apify.com/data_xplorer/google-news-scraper-fast?fpr=6vi1cs) Actor on Apify, which decodes the links to the original article, splits the search by date to go past 100 results, and can extract the article text.
 
 > Click **Watch > Custom > Releases** at the top of this page to be notified when the Actor gets new features. See the [changelog](CHANGELOG.md).
 
@@ -19,7 +19,7 @@ Google has no official Google News API, and the Google News RSS feed stops at ab
 
 ## Quick start
 
-You need Python 3.9+ and an [Apify](https://apify.com) account (the free plan includes monthly credits).
+You need Python 3.9+ and an [Apify](https://apify.com?fpr=6vi1cs) account (the free plan includes monthly credits).
 
 ```bash
 git clone https://github.com/dataxplore19/google-news-api-python.git
@@ -122,7 +122,7 @@ Yes, with `--full-text`. The text is read from the publisher's page. A few paywa
 
 ### Can I search news by topic instead of keyword?
 
-Yes. The Actor also accepts Google News topics (World, Business, Technology...) and topic URLs. See the [Actor's input page](https://apify.com/data_xplorer/google-news-scraper-fast/input-schema).
+Yes. The Actor also accepts Google News topics (World, Business, Technology...) and topic URLs. See the [Actor's input page](https://apify.com/data_xplorer/google-news-scraper-fast/input-schema?fpr=6vi1cs).
 
 ### Can an AI agent use it?
 
@@ -130,7 +130,7 @@ Yes. See [AGENTS.md](AGENTS.md). The Actor is also available to AI assistants th
 
 ## Disclosure
 
-I am the author of the Google News Scraper Actor used by this script.
+I am the author of the Google News Scraper Actor used by this script. Links to apify.com in this repository are referral links: if you create an Apify account through them, I may earn a commission at no cost to you.
 
 ## License
 

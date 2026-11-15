@@ -1,6 +1,6 @@
 # Changelog
 
-Updates to the [Google News Scraper](https://apify.com/data_xplorer/google-news-scraper-fast) Actor used by this repository. Click **Watch > Custom > Releases** at the top of the page to be notified of new ones.
+Updates to the [Google News Scraper](https://apify.com/data_xplorer/google-news-scraper-fast?fpr=6vi1cs) Actor used by this repository. Click **Watch > Custom > Releases** at the top of the page to be notified of new ones.
 
 ## Actor v3.1 (2026-11-13)
 
