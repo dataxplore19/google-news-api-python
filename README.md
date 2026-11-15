@@ -94,6 +94,10 @@ texts = df["fullText"].dropna().tolist()
 ```
 
 
+## Other languages
+
+Prefer JavaScript? The same tool for Node.js: [google-news-api-node](https://github.com/dataxplore19/google-news-api-node).
+
 ## FAQ
 
 ### Is there an official Google News API?
