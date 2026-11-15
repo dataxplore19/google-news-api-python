@@ -4,6 +4,8 @@ Search Google News in Python and save the results to CSV: articles for any keywo
 
 Google has no official Google News API, and the Google News RSS feed stops at about 100 items and only gives `news.google.com` redirect links. This script gets the data through the [Google News Scraper](https://apify.com/data_xplorer/google-news-scraper-fast) Actor on Apify, which decodes the links to the original article, splits the search by date to go past 100 results, and can extract the article text.
 
+> Click **Watch > Custom > Releases** at the top of this page to be notified when the Actor gets new features. See the [changelog](CHANGELOG.md).
+
 ## What you can do
 
 | Task | Command |
